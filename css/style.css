@@ -1,0 +1,93 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../img/bk.png) repeat left top;
+}
+h1 {
+  font-size: 230%;
+}
+h2 {
+  font-size: 180%;
+}
+h3 {
+  font-size: 150%;
+}
+h4 {
+  font-size: 120%;
+}
+h5 {
+  font-size: 110%;
+}
+a {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+h1#siteName {
+  margin-left: 30px;
+  font-family: 'Gravitas One', cursive;
+  color: #fff;
+  text-shadow: 1px 1px 7px #111;
+}
+#wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -o-box;
+  display: box;
+}
+
+.floatbox {
+  padding: 1em;
+  -webkit-box-shadow: -3px 0px 10px #666;
+  -moz-box-shadow: -3px 0px 10px #666;
+  box-shadow: -3px 0px 10px #666;
+  border-top: solid 1px rgba(10, 10, 10, 0.5);
+}
+
+#buttonLoad {
+  position: fixed;
+  right: 5px;
+  top: 5px;
+}
+
+#buttonLoad a,
+#buttonLoad a:link, 
+#buttonLoad a:active, 
+#buttonLoad a:visited {
+  opacity: 0.7;
+}
+#buttonLoad a:hover {
+  opacity: 1;
+}
+
+#loading {
+  background-color: rgba(10, 10, 10, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+#loading p {
+  font-size: 500%;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  width: 330px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -165px;
+}

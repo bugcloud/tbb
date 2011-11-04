@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>.T.umblr</title>
+    <script id="postTemplate" type="text/template">
+      <div class="floatbox" style="background-color:<%= _mysiteCommon.randomColor() %>;">
+        <a href="<%= post.url %>" target="_blank">
+          <img src="<%= post.src %>" />
+        </a>
+      </div>
+    </script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script type="text/javascript" src="js/underscore.js"></script>
+    <script type="text/javascript" src="js/backbone.js"></script>
+    <script type="text/javascript" src="js/jquery.jticker.js"></script>
+    <script type="text/javascript" src="js/Common.js"></script>
+    <script type="text/javascript" src="js/Page.js"></script>
+    <script type="text/javascript" src="js/Tumblr.js"></script>
+    <script type="text/javascript" src="js/Post.js"></script>
+    <script type="text/javascript" src="js/PostView.js"></script>
+    <script type="text/javascript" src="js/bind.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Gravitas+One' rel='stylesheet' type='text/css'>
+    <link href="css/reset.css" type="text/css" rel="stylesheet"/>
+    <link href="css/default.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <h1 id="siteName">.T.umblr</h1>
+    <div id="wrapper">
+    </div>
+    <div id="buttonLoad">
+      <a href="javascript:void(0);"><img src="img/refresh.png" alt="load more" title="" /></a>
+    </div>
+    <div id="loading"><p>Loading...</p></div>
+  </body>
+</html>
